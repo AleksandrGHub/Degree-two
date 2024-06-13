@@ -15,10 +15,6 @@
             for (int number = randomNumber; number >= 1; number /= divisor)
             {
                 degreeNumber++;
-            }
-
-            for (int i = 0; i < degreeNumber; i++)
-            {
                 numberInPower *= divisor;
             }
 
